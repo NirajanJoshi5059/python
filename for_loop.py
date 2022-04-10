@@ -25,3 +25,9 @@ for num in range(5,10):
 # range function with initial, end and step (range(start, end, step)).
 for num in range(5,10,2):
     print(num)
+
+prices=[30,59,75,68]
+total=0
+for price in prices:
+    total+=price
+print("Total cost is ",total)
